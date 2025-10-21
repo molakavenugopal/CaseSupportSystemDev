@@ -28,13 +28,6 @@
     <!-- <types>
         <members>Case_Record_Page1</members> 
         <name>FlexiPage</name>
-    </types> 
- 
-    <types>
-    <members>Billing</members>
-    <members>Delivery</members>
-    <members>Refund</members> 
-    <name>Queue</name>
     </types> -->
 
     <!-- <types>
@@ -89,14 +82,19 @@
         <name>CustomObject</name>
     </types> 
     
-
+    <types>
+        <members>Case</members> 
+        <name>CustomObject</name>
+    </types> 
     <types>
         <members>Case_Support_System</members> 
         <name>CustomApplication</name> 
     </types> -->
     <types>
-        <members>Case</members> 
-        <name>CustomObject</name>
-    </types> 
+    <members>Billing</members>
+    <members>Delivery</members>
+    <members>Refund</members> 
+    <name>Queue</name>
+    </types>
     <version>62.0</version> <!-- Use your org's API version -->
 </Package>
