@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <!-- <types>
+            <members>Scheduled_Flow_for_SLA_Breach_Check</members>
+            <members>Case_Assignment_Record_Trigger_Flow</members> 
+            <members>Case_Assignment_Record_Trigger_Flow_Dynamic_Method</members>
+            <name>Flow</name>
+    </types> -->
+
+   <!-- <types>
+    <members>Case.Billing</members>
+    <members>Case.Delivery</members>
+    <members>Case.Refund</members> 
+    <name>RecordType</name> 
+  </types> -->
+
+  <!-- <types>
+    <members>Case.Billing_Compact_Layout</members>
+    <members>Case.Delivery_Compact_Layout</members>
+    <members>Case.Refund_Compact_Layout</members> 
+    <name>CompactLayout</name>
+  </types> -->
+
+    <!-- <types>
+        <members>Case_Record_Page_Three_Columns</members> 
+        <name>FlexiPage</name>
+    </types> -->
+
+   <!-- <types>
+    <members>Billing</members>
+    <members>Delivery</members>
+    <members>Refund</members> 
+    <name>Queue</name>
+    </types> -->
+
+    <!-- <types>
+       <members>SLA_Config__mdt</members> 
+        <name>CustomObject</name>
+    </types> -->
+
+    <types>
+        <members>SLA_Config.Billing</members>
+        <members>SLA_Config.Delivery</members>
+        <members>SLA_Config.Refund</members>
+        <name>CustomMetadata</name>
+    </types>
+
+    <!--<types>
+         <members>Case.SLA_Breach_Check</members>
+        <name>ValidationRule</name> 
+     </types>  -->
+
+      <!--    <types>
+        <members>Case_Escalation_Access</members>
+        <members>Report_Access</members> 
+        <name>PermissionSet</name>
+      </types>  -->
+
+   <!--<types>
+        <members>CSR Profile</members>
+        <members>Supervisor Profile</members> 
+        <name>Profile</name>
+    </types>  -->
+
+    <!-- <types>
+       <members>ICICI_Bank</members> 
+        <name>CustomApplication</name>
+    </types>  -->
+
+   <!-- <types>
+       <members>*</members> 
+        <name>CustomTab</name>  
+    </types> -->
+
+     <types>
+      <!--  <members>Case.Case_Type__c</members>
+        <members>Case.SLA_Breach_Date__c</members>
+        <members>Case.Priority_Override__c</members> -->
+        <members>Case.Internal_Notes__c</members>
+        <name>CustomField</name>
+    </types> 
+
+   <!--sf project start retrieve -x manifest/package.xml --o mol <types>
+        <members>Interaction__c</members> 
+        <name>CustomObject</name>
+    </types> -->
+    <version>62.0</version> <!-- Use your org's API version -->
+</Package>
