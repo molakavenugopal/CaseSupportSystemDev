@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Breach_Date_Cannot_Less_thanTodayDat</fullName>
+    <active>true</active>
+    <description>SLA date should be today or higher than today date</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(SLA_Breach_Date__c)),
+    SLA_Breach_Date__c &lt; TODAY()
+)</errorConditionFormula>
+    <errorDisplayField>SLA_Breach_Date__c</errorDisplayField>
+    <errorMessage>SLA Breach Date cannot be less than today date.</errorMessage>
+</ValidationRule>

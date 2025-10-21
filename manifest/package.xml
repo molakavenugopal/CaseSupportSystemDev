@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <!-- <types>
+   <types>
             <members>Scheduled_Flow_for_SLA_Breach_Check</members>
-            <members>Case_Assignment_Record_Trigger_Flow</members> 
-            <members>Case_Assignment_Record_Trigger_Flow_Dynamic_Method</members>
+            <members>Case_Triggered_Flow_to_assign_queue</members>
             <name>Flow</name>
-    </types> -->
+    </types>
 
   <!-- <types>
     <members>Case.Billing_Support</members>
@@ -26,12 +25,12 @@
         <name>QuickAction</name>
     </types>  -->
 
-     <types>
+    <!-- <types>
         <members>Case_Record_Page1</members> 
         <name>FlexiPage</name>
     </types> 
  
-   <!-- <types>
+    <types>
     <members>Billing</members>
     <members>Delivery</members>
     <members>Refund</members> 
@@ -89,14 +88,15 @@
         <members>Interaction__c</members> 
         <name>CustomObject</name>
     </types> 
-    <types>
-        <members>Case</members> 
-        <name>CustomObject</name>
-    </types> 
+    
 
     <types>
         <members>Case_Support_System</members> 
         <name>CustomApplication</name> 
     </types> -->
+    <types>
+        <members>Case</members> 
+        <name>CustomObject</name>
+    </types> 
     <version>62.0</version> <!-- Use your org's API version -->
 </Package>
