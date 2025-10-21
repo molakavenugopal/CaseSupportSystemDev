@@ -19,13 +19,18 @@
     <members>Case.Delivery_Compact_Layout</members>
     <members>Case.Refund_Compact_Layout</members> 
     <name>CompactLayout</name>
-  </types> 
+  </types>
+
+    <types>
+        <members>Case.Interaction_Record</members> 
+        <name>QuickAction</name>
+    </types>  -->
 
      <types>
-        <members>Case_Record_Page_Three_Columns</members> 
+        <members>Case_Record_Page1</members> 
         <name>FlexiPage</name>
-    </types> -->
-
+    </types> 
+ 
    <!-- <types>
     <members>Billing</members>
     <members>Delivery</members>
@@ -87,10 +92,11 @@
     <types>
         <members>Case</members> 
         <name>CustomObject</name>
-    </types> -->
+    </types> 
+
     <types>
         <members>Case_Support_System</members> 
         <name>CustomApplication</name> 
-    </types>
+    </types> -->
     <version>62.0</version> <!-- Use your org's API version -->
 </Package>
