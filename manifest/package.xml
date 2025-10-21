@@ -7,21 +7,21 @@
             <name>Flow</name>
     </types> -->
 
-   <!-- <types>
-    <members>Case.Billing</members>
-    <members>Case.Delivery</members>
-    <members>Case.Refund</members> 
-    <name>RecordType</name> 
-  </types> -->
-
   <!-- <types>
+    <members>Case.Billing_Support</members>
+    <members>Case.Delivery_Support</members>
+    <members>Case.Refund_Support</members> 
+    <name>RecordType</name> 
+  </types> 
+
+  <types>
     <members>Case.Billing_Compact_Layout</members>
     <members>Case.Delivery_Compact_Layout</members>
     <members>Case.Refund_Compact_Layout</members> 
     <name>CompactLayout</name>
-  </types> -->
+  </types> 
 
-    <!-- <types>
+     <types>
         <members>Case_Record_Page_Three_Columns</members> 
         <name>FlexiPage</name>
     </types> -->
@@ -36,14 +36,14 @@
     <!-- <types>
        <members>SLA_Config__mdt</members> 
         <name>CustomObject</name>
-    </types> -->
+    </types> 
 
     <types>
         <members>SLA_Config.Billing</members>
         <members>SLA_Config.Delivery</members>
         <members>SLA_Config.Refund</members>
         <name>CustomMetadata</name>
-    </types>
+    </types> -->
 
     <!--<types>
          <members>Case.SLA_Breach_Check</members>
@@ -72,17 +72,25 @@
         <name>CustomTab</name>  
     </types> -->
 
-     <types>
-      <!--  <members>Case.Case_Type__c</members>
+    <!-- <types>
+        <members>Case.Case_Type__c</members>
         <members>Case.SLA_Breach_Date__c</members>
-        <members>Case.Priority_Override__c</members> -->
-        <members>Case.Internal_Notes__c</members>
+        <members>Case.Priority_Override__c</members> 
+        <members>Case.Internal_Notes__c</members> 
         <name>CustomField</name>
     </types> 
 
-   <!--sf project start retrieve -x manifest/package.xml --o mol <types>
+    <types>
         <members>Interaction__c</members> 
         <name>CustomObject</name>
+    </types> 
+    <types>
+        <members>Case</members> 
+        <name>CustomObject</name>
     </types> -->
+    <types>
+        <members>Case_Support_System</members> 
+        <name>CustomApplication</name> 
+    </types>
     <version>62.0</version> <!-- Use your org's API version -->
 </Package>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Reason__c</fullName>
+    <label>Refund Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Product is damaged</fullName>
+                <default>false</default>
+                <label>Product is damaged</label>
+            </value>
+            <value>
+                <fullName>Product mismatch</fullName>
+                <default>false</default>
+                <label>Product mismatch</label>
+            </value>
+            <value>
+                <fullName>Product quality not good</fullName>
+                <default>false</default>
+                <label>Product quality not good</label>
+            </value>
+            <value>
+                <fullName>Product size fitting issue</fullName>
+                <default>false</default>
+                <label>Product size fitting issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
