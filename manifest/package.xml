@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <types>
+  <!--  <types>
             <members>Scheduled_Flow_for_SLA_Breach_Check</members>
             <members>Case_Triggered_Flow_to_assign_queue</members>
             <name>Flow</name>
     </types>
 
-  <!-- <types>
+  <types>
     <members>Case.Billing_Support</members>
     <members>Case.Delivery_Support</members>
     <members>Case.Refund_Support</members> 
@@ -47,18 +47,6 @@
         <name>ValidationRule</name> 
      </types>  -->
 
-      <!--    <types>
-        <members>Case_Escalation_Access</members>
-        <members>Report_Access</members> 
-        <name>PermissionSet</name>
-      </types>  -->
-
-   <!--<types>
-        <members>CSR Profile</members>
-        <members>Supervisor Profile</members> 
-        <name>Profile</name>
-    </types>  -->
-
     <!-- <types>
        <members>ICICI_Bank</members> 
         <name>CustomApplication</name>
@@ -89,12 +77,22 @@
     <types>
         <members>Case_Support_System</members> 
         <name>CustomApplication</name> 
-    </types> -->
+    </types> 
     <types>
     <members>Billing</members>
     <members>Delivery</members>
     <members>Refund</members> 
     <name>Queue</name>
+    </types> -->
+   <types>
+        <members>CSR Profile</members>
+        <members>Supervisor Profile</members> 
+        <name>Profile</name>
     </types>
+     <types>
+        <members>Case_Escalation_Access</members>
+        <members>Report_Access</members> 
+        <name>PermissionSet</name>
+      </types>
     <version>62.0</version> <!-- Use your org's API version -->
 </Package>
